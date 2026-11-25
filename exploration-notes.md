@@ -59,10 +59,11 @@ Session 1, 2026-11-23. Kristina's first-look notes, kept close to her own words.
 | 2 | Logout | Works | Looks OK |
 | 3 | Browser Back after logout | Stays on the login page (good). Shows "Epic sadface: You can only access '/inventory.html' when you are logged in". Text is cut off at the top and bottom, and both fields turn red | Access is blocked correctly. **Bug:** message text is clipped. **Observation:** wording isn't user friendly |
 
-## Possible bugs (logged as GitHub Issues #1-#3)
+## Possible bugs (logged as GitHub Issues #1-#3, plus #7)
 - **Password "view" eye is blocked by the error X.** After a wrong-password error, the red X icon sits on top of the eye, so you can't click it to reveal the password. (`standard_user`, login page) **Update 2026-11-25:** the eye is Edge's own show-password button (it only shows while typing in the field), so this is Edge only. Reproduced; see Issue #1.
 - **Reset App State doesn't reset the "Remove" buttons.** The cart empties, but the item's button still says "Remove". (`standard_user`, product list)
 - **Logged-out message is cut off.** After logout + browser Back, the error text is clipped at the top and bottom. (`standard_user`, login page)
+- **Wrong-password error is cut off in Firefox.** (Found 2026-11-25 during the Firefox recheck.) The message wraps to three lines and the top and bottom are clipped. Fine in Edge. Probably the same fixed-height error box as the logged-out message. In Firefox, the logged-out message doesn't appear at all after Back. See Issues #7 and #3.
 
 ## Observations (not bugs, questions for the product owner; Issues #4-#6)
 - Form validation reports one missing field at a time, not all of them (login page and checkout page).
