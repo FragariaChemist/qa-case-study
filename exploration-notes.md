@@ -1,6 +1,6 @@
 # Exploration notes: Sauce Demo
 
-> **Where we left off (2026-11-25):** Exploration as `standard_user` is done. Test plan started in `test-plan.md`: all 7 sections are drafted (waiting for my review). Repo is public at https://github.com/FragariaChemist/qa-case-study. Next: push the test plan, add severity labels, and log the 3 Session 1 bugs and 3 questions as GitHub Issues.
+> **Where we left off (2026-11-25):** Test plan done (`test-plan.md`). Repo is public at https://github.com/FragariaChemist/qa-case-study, and Session 1's bugs and questions are logged as Issues #1-#6. Next: recheck the 3 bugs in Firefox and add screenshots to their Issues, then Session 2 (the other test users).
 
 App: https://www.saucedemo.com (practice store built for testing)
 Session 1, 2026-11-23. Kristina's first-look notes, kept close to her own words.
@@ -59,12 +59,12 @@ Session 1, 2026-11-23. Kristina's first-look notes, kept close to her own words.
 | 2 | Logout | Works | Looks OK |
 | 3 | Browser Back after logout | Stays on the login page (good). Shows "Epic sadface: You can only access '/inventory.html' when you are logged in". Text is cut off at the top and bottom, and both fields turn red | Access is blocked correctly. **Bug:** message text is clipped. **Observation:** wording isn't user friendly |
 
-## Possible bugs
+## Possible bugs (logged as GitHub Issues #1-#3)
 - **Password "view" eye is blocked by the error X.** After a wrong-password error, the red X icon sits on top of the eye, so you can't click it to reveal the password. (`standard_user`, login page)
 - **Reset App State doesn't reset the "Remove" buttons.** The cart empties, but the item's button still says "Remove". (`standard_user`, product list)
 - **Logged-out message is cut off.** After logout + browser Back, the error text is clipped at the top and bottom. (`standard_user`, login page)
 
-## Observations (not bugs, questions for the product owner)
+## Observations (not bugs, questions for the product owner; Issues #4-#6)
 - Form validation reports one missing field at a time, not all of them (login page and checkout page).
 - Zip code accepts letters, and they print on the receipt ("abc"). Is any format expected?
 - Logged-out message shows a technical path ("/inventory.html") and turns the fields red although the user typed nothing wrong. Suggest plain wording like "Please log in to continue."
