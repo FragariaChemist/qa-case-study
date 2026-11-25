@@ -1,6 +1,6 @@
 # Exploration notes: Sauce Demo
 
-> **Where we left off (2026-11-25):** Test plan done (`test-plan.md`). Repo is public at https://github.com/FragariaChemist/qa-case-study, and Session 1's bugs and questions are logged as Issues #1-#6. Next: recheck the 3 bugs in Firefox and add screenshots to their Issues, then Session 2 (the other test users).
+> **Where we left off (2026-11-25):** Test plan done (`test-plan.md`). Session 1 is complete: bugs #1, #2, #3 and #7 are logged with screenshots and checked in Edge and Firefox; questions are #4-#6. Next: Session 2, exploring as `problem_user`, `error_user`, `performance_glitch_user` and `visual_user`, then write the formal test cases.
 
 App: https://www.saucedemo.com (practice store built for testing)
 Session 1, 2026-11-23. Kristina's first-look notes, kept close to her own words.
