@@ -1,6 +1,6 @@
 # Exploration notes: Sauce Demo
 
-> **Where we left off (2026-11-25):** Exploration as `standard_user` is done. Test plan started in `test-plan.md`: sections 1 (Purpose) and 2 (Scope, with Edge as the main browser and Firefox as the cross-check) are drafted. Next: section 3 (Approach).
+> **Where we left off (2026-11-25):** Exploration as `standard_user` is done. Test plan started in `test-plan.md`: all 7 sections are drafted (waiting for my review). Repo is public at https://github.com/FragariaChemist/qa-case-study. Next: push the test plan, add severity labels, and log the 3 Session 1 bugs and 3 questions as GitHub Issues.
 
 App: https://www.saucedemo.com (practice store built for testing)
 Session 1, 2026-11-23. Kristina's first-look notes, kept close to her own words.
