@@ -1,0 +1,11 @@
+# Personal VS Code session setup (not part of the case study)
+*.code-workspace
+Open-*.cmd
+icons/
+
+# Playwright and Node (for the automated tests later)
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
