@@ -60,7 +60,7 @@ Session 1, 2026-11-23. Kristina's first-look notes, kept close to her own words.
 | 3 | Browser Back after logout | Stays on the login page (good). Shows "Epic sadface: You can only access '/inventory.html' when you are logged in". Text is cut off at the top and bottom, and both fields turn red | Access is blocked correctly. **Bug:** message text is clipped. **Observation:** wording isn't user friendly |
 
 ## Possible bugs (logged as GitHub Issues #1-#3)
-- **Password "view" eye is blocked by the error X.** After a wrong-password error, the red X icon sits on top of the eye, so you can't click it to reveal the password. (`standard_user`, login page)
+- **Password "view" eye is blocked by the error X.** After a wrong-password error, the red X icon sits on top of the eye, so you can't click it to reveal the password. (`standard_user`, login page) **Update 2026-11-25:** the eye is Edge's own show-password button (it only shows while typing in the field), so this is Edge only. Reproduced; see Issue #1.
 - **Reset App State doesn't reset the "Remove" buttons.** The cart empties, but the item's button still says "Remove". (`standard_user`, product list)
 - **Logged-out message is cut off.** After logout + browser Back, the error text is clipped at the top and bottom. (`standard_user`, login page)
 
